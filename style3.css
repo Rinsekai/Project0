@@ -1,0 +1,108 @@
+html{
+
+   background-image:url("715490.jpg");
+   background-repeat:no-repeat;
+   background-position:center;
+   background-size:cover;
+   background-attachment:fixed;
+
+}
+
+
+
+
+
+#p1{
+
+   width:250px;
+   height:100px; 
+   background:#ab0000;  
+   font-size:85px;
+   text-align:center;
+   margin-top:500px;
+   margin-left:1000px;
+   
+      
+   animation: myRotate;
+   animation-duration:7s;
+   animation-iteration-count:infinite;
+   
+
+}
+
+
+#p2{
+
+   width:250px;
+   height:100px; 
+   background:#ab0000;  
+   font-size:85px;
+   text-align:center;
+   margin-top:1550px;
+   margin-left:3700px;
+   
+      
+   animation: myRotate;
+   animation-duration:7s;
+   animation-iteration-count:infinite;
+   
+      
+      
+}
+
+
+#p3{
+
+   width:250px;
+   height:100px; 
+   background:#ab0000;  
+   font-size:85px;
+   text-align:center;
+   margin-top:500px;
+   margin-left:1000px;
+   
+      
+   animation: myRotate;
+   animation-duration:7s;
+   animation-iteration-count:infinite;
+   
+    
+}
+
+
+@keyframes myColorAnimation{
+
+   0%{background-color:red;}
+   30%{background-color:black;} 
+   60%{background-color:blue;} 
+   90%{background-color:orange;}
+   100%{background-color:red;}     
+   
+}
+
+@keyframes myRotate{
+
+   
+   
+   0%{background-color:red;}
+   30%{background-color:black;} 
+   50%{transform:scale(2,2) rotateZ(1000deg) 
+   translateX(750px) translateY(750px);}
+   60%{background-color:blue;} 
+   90%{background-color:orange;}
+   100%{background-color:red;}     
+    
+   
+   
+}
+
+@keyframes myScale{
+
+   
+
+}
+
+
+
+
+
